@@ -1,0 +1,138 @@
+GET /live-feed/all-bets HTTP/2
+Host: api.bloxflip.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Origin: https://bloxflip.com
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Te: trailers
+
+- / - / - / - / - / - / - / - / - / - / - / - / - / - / - / - / - / - / - / - / 
+
+HTTP/2 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+Served-By: BloxFlip Beta v0.1
+Cache-Control: no-cache
+Cf-Cache-Status: EXPIRED
+Vary: Accept-Encoding
+Access-Control-Max-Age: 7200
+Server: cloudflare
+Cf-Ray: 89b86cb928bc92fe-CPH
+Alt-Svc: h3=":443"; ma=86400
+
+
+
+{
+    "success": true,
+    "bets": [
+        {
+            "_id": {
+                "$oid": "668064a784eeb16f72b324dd"
+            },
+            "uuid": "c28c1108-fe94-4737-804e-71f08787193c",
+            "gamemode": "plinko",
+            "username": "MeorGaming",
+            "userId": 43175764,
+            "bet": 50.0,
+            "multiplier": 0.2,
+            "winnings": -40.0,
+            "created": 1719690407869,
+            "high": false,
+            "lucky": false
+        },
+        {
+            "_id": {
+                "$oid": "668064a7b80215088559798d"
+            },
+            "uuid": "46ea9eca-f5e5-4574-acbc-227d727c8d65",
+            "gamemode": "mines",
+            "username": "theBroBig1",
+            "userId": 2448906194,
+            "bet": 30.0,
+            "multiplier": 0.0,
+            "winnings": -30.0,
+            "created": 1719690407712,
+            "high": false,
+            "lucky": false
+        },
+        {
+            "_id": {
+                "$oid": "668064a7ad224f691c886828"
+            },
+            "uuid": "728d7d43-696f-4bf1-9199-f1b7c1ea8975",
+            "gamemode": "slots",
+            "username": "matas503",
+            "userId": 271075814,
+            "bet": 300.0,
+            "multiplier": 1.498,
+            "winnings": 449.4,
+            "created": 1719690407669,
+            "high": false,
+            "lucky": false
+        },
+        {
+            "_id": {
+                "$oid": "668064a767ba4761df164e6a"
+            },
+            "uuid": "586b35bc-ce2b-413a-9b13-0f161d278e57",
+            "gamemode": "plinko",
+            "username": "MeorGaming",
+            "userId": 43175764,
+            "bet": 50.0,
+            "multiplier": 0.2,
+            "winnings": -40.0,
+            "created": 1719690407552,
+            "high": false,
+            "lucky": false
+        },
+        {
+            "_id": {
+                "$oid": "668064a7a4782f00d03faede"
+            },
+            "uuid": "29f61370-e634-4371-a90e-dc2800b28fcb",
+            "gamemode": "plinko",
+            "username": "MeorGaming",
+            "userId": 43175764,
+            "bet": 50.0,
+            "multiplier": 0.2,
+            "winnings": -40.0,
+            "created": 1719690407456,
+            "high": false,
+            "lucky": false
+        },
+        {
+            "_id": {
+                "$oid": "668064a7ef1d6e0bae6bb472"
+            },
+            "uuid": "14963394-3231-482a-bd9a-f096e3525b4a",
+            "gamemode": "plinko",
+            "username": "MeorGaming",
+            "userId": 43175764,
+            "bet": 50.0,
+            "multiplier": 0.2,
+            "winnings": -40.0,
+            "created": 1719690407257,
+            "high": false,
+            "lucky": false
+        },
+        {
+            "_id": {
+                "$oid": "668064a7096e5209e3a4f2c5"
+            },
+            "uuid": "8574ebea-4f48-4bf7-ad82-60c2731278f4",
+            "gamemode": "plinko",
+            "username": "MeorGaming",
+            "userId": 43175764,
+            "bet": 50.0,
+            "multiplier": 0.2,
+            "winnings": -40.0,
+            "created": 1719690407148,
+            "high": false,
+            "lucky": false
+        }
+    ]
+}
